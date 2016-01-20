@@ -1,0 +1,84 @@
+@import 'vendor/bourbon/bourbon';
+@import 'vendor/neat/neat';
+@import 'variables';
+header {
+
+}
+
+section{
+  padding:5px;
+}
+
+header{
+  @include display(flex);
+  @include align-items(center);
+  background:#40526B;
+  color:white;
+  font-weight: bold;
+  font-size: 1.25em;
+  padding:15px 5px;
+}
+.full {
+@include span-columns(12);
+}
+
+#app{
+  @include outer-container;
+
+}
+
+.half {
+  @include span-columns(6);
+}
+
+
+.report-heading{
+  @include span-columns(12);
+}
+
+.metrics{
+  @include span-columns(5);
+
+}
+
+.metric-container{
+  @include span-columns(12);
+  margin-right:0;
+  margin-top:15px;
+  border: 2px solid $site-grey;
+  background-color: rgba(146, 177, 227, 0.05);
+  padding:5px;
+  height:56px;
+  @include display(flex);
+  @include justify-content(space-between);
+  @include align-items(center);
+
+  &.active {
+    background-color: tomato;
+    color:white;
+  }
+
+}
+
+#distribution-graph {
+  @include span-columns(7);
+  height:100%;
+}
+
+.graph{
+  @include fill-parent;
+}
+
+.bar{
+
+}
+
+.bar-half{
+  @extend .bar;
+}
+
+.bar-full{
+  @extend .bar;
+
+}
+
