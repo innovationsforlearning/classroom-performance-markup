@@ -1,7 +1,6 @@
 .login-position {
   margin: auto;
   height: 40px;
-  line-height: 10px;
   width: 256px;
   text-align: center;
   display: block;
@@ -9,6 +8,15 @@
   padding-top: 68px;
   padding-bottom: 32px;
   color: #ffffff;
+  letter-spacing: .1em;
+  font-weight: 300;
+}
+
+.forgot-password {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: .85em;
+  font-style: italic;
 }
 
 input[type="text"] {
@@ -29,6 +37,7 @@ input[type="submit"] {
   letter-spacing: 1px;
   height: 40px;
   width: 256px;
+  margin-top:20px;
 
 }
 
