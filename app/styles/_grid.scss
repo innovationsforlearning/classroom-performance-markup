@@ -12,18 +12,25 @@ section{
 header{
   @include display(flex);
   @include align-items(center);
-  background:#40526B;
+  background:$header;
   color:white;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 1.25em;
-  padding:15px 5px;
+  padding:15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+  height: 60px;
+  margin: auto;
 }
+
 .full {
 @include span-columns(12);
 }
 
 #app{
   @include outer-container;
+  background: $main-color;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.10);
+  position: relative;
 
 }
 
@@ -43,9 +50,9 @@ header{
 
 .metric-container{
   @include span-columns(12);
-  margin-right:0;
-  margin-top:15px;
-  border: 2px solid $site-grey;
+  margin: 0px 9px;
+  margin-top: 0px;
+  border-top: 1px solid #eeeeee;
   background-color: rgba(146, 177, 227, 0.05);
   padding:5px;
   height:56px;

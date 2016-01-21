@@ -1,0 +1,48 @@
+.login-position {
+  margin: auto;
+  height: 40px;
+  line-height: 10px;
+  width: 256px;
+  text-align: center;
+  display: block;
+  position: relative;
+  padding-top: 68px;
+  padding-bottom: 32px;
+  color: #ffffff;
+}
+
+input[type="text"] {
+  color: rgba(0, 0, 0, .4);
+  border-radius: 0px;
+  margin-top:20px;
+}
+input[type="password"] {
+  color: rgba(0, 0, 0, .4);
+  border-radius: 0px;
+}
+input[type="submit"] {
+  background-color: #616161;
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  height: 40px;
+  width: 256px;
+
+}
+
+input[type="submit"]:hover{
+  background-color: #424242;
+}
+
+
+.card {
+  margin: 60px auto 80px;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  height: 321px;
+  background-color: $card-color;
+  display: block;
+  position: relative;
+}

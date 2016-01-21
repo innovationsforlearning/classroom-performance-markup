@@ -3,4 +3,10 @@
 @import "vendor/neat/neat";
 @import "grid";
 @import "components/components";
+@import "components/_login_form";
 @import "typography";
+
+body {
+  margin: 0;
+  background: $background;
+}
