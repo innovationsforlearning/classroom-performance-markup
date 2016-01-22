@@ -31,6 +31,7 @@ header{
   background: $main-color;
   box-shadow: 0 1px 1px rgba(0,0,0,0.10);
   position: relative;
+  height: 630px;
 
 }
 
@@ -61,7 +62,7 @@ header{
   @include align-items(center);
 
   &.active {
-    background-color: tomato;
+    background-color: $accent;
     color:white;
   }
 
@@ -78,6 +79,10 @@ header{
 
 .bar{
 
+}
+
+.chart{
+  margin-top: 63px;
 }
 
 .bar-half{
