@@ -5,7 +5,7 @@
   text-align: center;
   display: block;
   position: relative;
-  padding-top: 68px;
+  padding-top: 38px;
   padding-bottom: 32px;
   color: #ffffff;
   letter-spacing: .1em;
@@ -13,10 +13,14 @@
 }
 
 .forgot-password {
-  color: #ffffff;
+  color: #616161;
   text-decoration: none;
   font-size: .85em;
   font-style: italic;
+}
+
+.forgot-password:hover {
+  color: $header;
 }
 
 input[type="text"] {
@@ -42,16 +46,34 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover{
-  background-color: #424242;
+  background-color: $header;
 }
 
 
 .card {
-  margin: 60px auto 80px;
-  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.2);
+  margin: 0 auto 80px;
   width: 500px;
   height: 321px;
-  background-color: $card-color;
+  background-color: #fafafa;
   display: block;
   position: relative;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01);
+  border-top: 0;
+}
+
+.login-title {
+  margin: 60px auto 0;
+  line-height: 85px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 85px;
+  background-color: #00BCD4;
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: .1em;
+  font-weight: 500;
+  z-index: 1;
 }

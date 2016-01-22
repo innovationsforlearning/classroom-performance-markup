@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5512a62b-3dbd-4bb7-b0df-a9073d114c0d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/login.html" afterPath="$PROJECT_DIR$/app/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_variables.scss" afterPath="$PROJECT_DIR$/app/styles/_variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_login_form.scss" afterPath="$PROJECT_DIR$/app/styles/components/_login_form.scss" />
     </list>
     <ignored path="classroom-performance-markup.iws" />
@@ -24,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5927052">
-              <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+            <state vertical-scroll-proportion="-9.078431">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_login_form.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_login_form.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/styles/components/_login_form.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.235294">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.3419453">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -68,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/app/styles/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.117647">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -106,9 +107,9 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/styles/_grid.scss" />
+        <option value="$PROJECT_DIR$/app/login.html" />
         <option value="$PROJECT_DIR$/app/styles/_variables.scss" />
         <option value="$PROJECT_DIR$/app/styles/components/_login_form.scss" />
-        <option value="$PROJECT_DIR$/app/login.html" />
       </list>
     </option>
   </component>
@@ -385,18 +386,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_typography.scss">
+    <entry file="file://$PROJECT_DIR$/app/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.2941175">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.078431">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/app/styles/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.117647">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state vertical-scroll-proportion="-5.2941175">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -409,18 +410,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/components/_login_form.scss">
+    <entry file="file://$PROJECT_DIR$/app/styles/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.235294">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state vertical-scroll-proportion="-4.117647">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/login.html">
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_login_form.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5927052">
-          <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.3419453">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding />
         </state>
       </provider>
